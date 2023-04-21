@@ -108,6 +108,20 @@ img {
   background-color: var(--color-background-btn-orange);
 }
 
+.btn--white {
+  padding: 1.9rem 5.3rem 2.3rem;
+  border: 1px solid rgba(170, 160, 152, 0.29);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--color-ternary-font-brown);
+  background-color: var(--color-white);
+}
+
 .heading-1 {
   font-weight: 400;
   font-size: 5rem;
@@ -595,4 +609,54 @@ img {
 .product__btn {
   width: 2rem;
   height: 2rem;
+}
+
+/* Follow */
+.follow {
+  display: flex;
+  background-color: var(--color-white-light);
+}
+
+.follow__pic-1,
+.follow__pic-2 {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.follow__pic-1 {
+  background-image: url("../img/follow.jpg");
+}
+
+.follow__pic-2 {
+  background-image: url("../img/follow-2.jpg");
+}
+
+.follow__descr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10.9rem 1.4rem;
+  width: 50%;
+}
+
+.follow__hash {
+  margin-bottom: 3.5rem;
+}
+
+.hashtag {
+  font-size: 1.1rem;
+  line-height: 185%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.follow__name {
+  margin-bottom: 6.2rem;
+  font-size: 2.4rem;
+  line-height: 192%;
+  text-align: center;
+  letter-spacing: 1px;
 }
