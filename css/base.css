@@ -75,6 +75,9 @@ body {
   --color-product-pastel-grey: #ccbd9e;
   --color-product-brown: #b55900;
   --color-product-swamp: #5b653b;
+
+  --color-background-footer: #6c674d;
+  --color-background-footer-2: #807c62;
 }
 
 ul {
@@ -659,4 +662,144 @@ img {
   line-height: 192%;
   text-align: center;
   letter-spacing: 1px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social {
+  display: flex;
+  padding: 8rem 12.5rem 12rem 4.8rem;
+  background-color: var(--color-background-footer);
+}
+
+.footer__subscribe {
+  width: 73%;
+}
+
+.subscribe__name {
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+  line-height: 250%;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: var(--color-white-light);
+}
+
+.subscribe__text {
+  margin-bottom: 6rem;
+  font-size: 1.4rem;
+  line-height: 171%;
+  color: var(--color-background-white);
+}
+
+.subscribtion {
+  display: flex;
+}
+
+.subscribtion__input {
+  border: none;
+  padding: 3rem 19.2rem 1.8rem 1.8rem;
+  background-color: var(--color-background-white);
+}
+
+.subscribtion__input:focus {
+  outline: none;
+}
+
+.subscribtion__input::-webkit-input-placeholder {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 58px;
+  letter-spacing: 0.7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.subscribtion__btn {
+  padding: 2.3rem 2.5rem 2rem 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-ternary-font-brown);
+  background-color: var(--color-background-white);
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.links__sites {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.7rem;
+}
+
+.links__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.links__link {
+  font-size: 1.6rem;
+  line-height: 191%;
+  color: rgba(245, 241, 233, 0.6);
+}
+
+.links__link-special {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 170%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-white-light);
+}
+
+.links__countries-in {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 170%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-white-light);
+}
+
+.countries img:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.footer__policy {
+  display: flex;
+  padding: 2rem 4.8rem;
+}
+
+.policy {
+  font-size: 1.4rem;
+  line-height: 27px;
+  color: rgba(252, 250, 246, 0.5);
+  background: var(--color-background-footer-2);
+}
+
+.footer__copyright {
+  margin-right: auto;
+}
+
+.policy__list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3rem;
+  width: 24%;
+}
+
+.btn-access {
+  padding: 0rem 3.1rem;
+  background-color: var(--color-background-white);
+  border-radius: 5px;
 }
